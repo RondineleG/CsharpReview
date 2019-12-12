@@ -6,6 +6,7 @@ namespace ValueReferenceTypes
     public class Student
     {
         public string Name { get; set; }
+        public int Age;
     }
     class Program
     {
@@ -36,6 +37,8 @@ namespace ValueReferenceTypes
 
             Console.WriteLine(i);
             Console.WriteLine(student.Name);
+            Console.WriteLine(student.Age);
+
 
 
 
