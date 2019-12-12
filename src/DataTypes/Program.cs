@@ -76,11 +76,41 @@ namespace DataTypes
             Console.WriteLine(defaultBool);
             Console.WriteLine(defaultChar);
 
+            //Implicit conversion
             int num = 10;
             float num2 = num;
 
             Console.WriteLine(num2);
+            /*
+                Implicit conversion
+             
+             from                to
+             
+             sbyte   =>  short, int , long, float, double decimal
+             
+             byte   =>  short, ushort, int, uint , long, ulong, float, double , decimal
 
+             short  =>  int, long , float, double, decimal
+
+             ushort  =>  int, uint , long, ulong, float, double , decimal
+
+             int =>  long, float, double , decimal
+
+             uint =>  long, ulong, float, double , decimal
+
+             long => float, double , decimal
+
+             ulong =>  float, double , decimal
+
+             char => ushort, int, uint, long, ulong, float, double , decimal
+
+             float => double
+             
+
+
+
+
+             */
 
         }
     }
