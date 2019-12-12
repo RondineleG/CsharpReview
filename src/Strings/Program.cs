@@ -9,6 +9,10 @@ namespace Strings
             string firstName = "Maria";
             string secondName = "Oliveira";
             Console.WriteLine($"The complete name is {firstName} of {secondName}");
+
+            Console.WriteLine($"The name has {firstName.Length} letters");
+            Console.WriteLine(secondName.Length);
+
         }
     }
 }
