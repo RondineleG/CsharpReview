@@ -65,7 +65,7 @@ namespace ProjectInterfaces
 
         bool IPen.Open()
         {
-            isOpen = false;
+            isOpen = true;
            Console.WriteLine("Pencil open for wrinting");
 
            return isOpen;
