@@ -47,14 +47,53 @@ namespace ProjectInterfaces
        }
 
     }
+    
+    public class Pencil : IPen
+    { 
+        string IPen.Color {get;set;}
+
+        private bool isOpen = false;
+
+        bool IPen.Close()
+        {
+             isOpen = false;
+           Console.WriteLine("Pencil closed for wrinting");
+
+           return isOpen;
+
+        }
+
+        bool IPen.Open()
+        {
+            isOpen = false;
+           Console.WriteLine("Pencil open for wrinting");
+
+           return isOpen;
+        }
+
+        void IPen.Write(string text)
+        {
+             if(isOpen)
+            {
+                Console.WriteLine($"Pencil : {text}");
+            }
+        }
+
+    }
     class Program
     {
         static void Main(string[] args)
         {
           IPen pen = new Cello();
           pen.Open();
-          pen.Write("This is may pen .");
+          pen.Write("This is may Pen .");
           pen.Close();
+
+          IPen pencil = new Pencil();
+           pencil.Open();
+          pencil.Write("This is may pencil .");
+          pencil.Close();
+
         }
     }
 }
