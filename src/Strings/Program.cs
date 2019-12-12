@@ -32,6 +32,10 @@ namespace Strings
            sayHello = sayHello.Replace("man", "World");
             Console.WriteLine(sayHello);
 
+            Console.WriteLine(sayHello.ToLower());
+            Console.WriteLine(sayHello.ToUpper());
+
+
         }
     }
 }
