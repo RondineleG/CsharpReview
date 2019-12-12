@@ -11,8 +11,10 @@ namespace Variables
             Console.WriteLine(friend); 
                 friend = "Cat";
             Console.WriteLine(friend);
-
-            Console.WriteLine("Hello " + friend);
+             string message;
+             //value can be assigned after it declared
+             message = " How are you ?";
+            Console.WriteLine("Hello " + friend + message);
         }
     }
 }
