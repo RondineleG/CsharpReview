@@ -3,7 +3,7 @@ using System;
 
 namespace ProjectInterfaces
 {
-    interface IBrandedPen
+    interface IBrandedPen : IPen
     {
         string GetBrandName();
 
@@ -85,7 +85,7 @@ namespace ProjectInterfaces
         }
 
     }
-    class Parker : IPen, IBrandedPen
+    class Parker : IBrandedPen
     {
         public string Color { get; set; }
 
@@ -134,8 +134,9 @@ namespace ProjectInterfaces
             pencil.Close();
 
 
-            IPen parker = new Parker();
+            IBrandedPen parker = new Parker();
             parker.Open();
+            parker.GetBrandName();
             parker.Write($"Parker : {parker}");
             parker.Close();
 
