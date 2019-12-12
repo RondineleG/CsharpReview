@@ -8,7 +8,7 @@ namespace AnonymousType
         {
             var myAnonymousType = new
             {
-                fisrtProperty = "First",
+                firstProperty = "First",
                 secondProperty = 2,
                 thirdProperty = true,
 
@@ -18,11 +18,17 @@ namespace AnonymousType
                 }
             };
 
-            Console.WriteLine(myAnonymousType.fisrtProperty);
+            Console.WriteLine(myAnonymousType.firstProperty);
             Console.WriteLine(myAnonymousType.anotherAnonymousType.nestedProperty);
             Console.WriteLine(myAnonymousType.GetType().ToString());
 
+            DoSomething(myAnonymousType);
 
+        }
+
+        static void DoSomething(dynamic param)
+        {
+            Console.WriteLine(param.firstProperty);
         }
     }
 }
