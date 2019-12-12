@@ -23,6 +23,10 @@ namespace DynamicType
     }
     class Program
     {
+        public static void PrintValues(dynamic value)
+        {
+            Console.WriteLine(value);
+        }
         static void Main(string[] args)
         {
             dynamic dynamicVar = "Rondinele";
@@ -44,6 +48,15 @@ namespace DynamicType
             dynamic dynamicStudent = new Student();
 
             dynamicStudent.DisplayStudentDatails();
+
+            PrintValues("Hello World!!");
+            PrintValues(100);
+            PrintValues(100.50);
+            PrintValues(true);
+            PrintValues(DateTime.Now);
+
+
+
 
         }
     }
