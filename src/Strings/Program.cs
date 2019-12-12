@@ -24,6 +24,8 @@ namespace Strings
             trimedHello = hello.TrimEnd();
             Console.WriteLine($"({trimedHello})");
 
+            trimedHello = hello.Trim();
+            Console.WriteLine($"({trimedHello})");
 
         }
     }
