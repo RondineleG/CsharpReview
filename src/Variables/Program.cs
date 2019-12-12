@@ -16,6 +16,10 @@ namespace Variables
              message = " How are you ?";
              string response = "Fine, thanks";
 
+             int i, j, k, l = 0;
+
+             int amount, num;
+
             Console.WriteLine("Hello " + friend + message);
 
             Console.WriteLine(response);
