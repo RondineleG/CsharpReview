@@ -32,6 +32,40 @@ namespace DataTypes
             Console.WriteLine(d);
             Console.WriteLine(dec);
 
+            int intAlias = 10;
+            Int32 intNormal= 10; //same as above
+
+            long longAlias = 45545;
+            Int64 longNormal = 45545;
+
+            /*
+            
+              Alias        .net Type
+              
+              byte         System.Byte
+              sbyte        System.SByte
+              int          System.Int32
+              uint         System.UInt32
+              short        System.Int16
+              long         System.Int64
+              ulong        System.UInt64
+              float        System.Single
+              double       System.Double
+              char         System.Char
+              bool         System.Boolean
+              decimal      System.Decimal
+              DateTime     System.DateTime
+
+              All types are struct
+
+              object       System.Object     type class
+              string       System.Sting      type class
+            
+            
+            */
+
+
+
         }
     }
 }
