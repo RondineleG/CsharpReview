@@ -104,13 +104,15 @@ namespace DataTypes
 
              char => ushort, int, uint, long, ulong, float, double , decimal
 
-             float => double
-             
-
-
-
+             float => double          
 
              */
+
+             int exp = 1000;
+
+             uint uin = (uint) exp; // Explicit conversion
+
+             Console.WriteLine(uin);
 
         }
     }
