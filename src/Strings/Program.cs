@@ -18,7 +18,12 @@ namespace Strings
 
 
             string trimedHello = hello.TrimStart();
-            System.Console.WriteLine($"({trimedHello})");
+            Console.WriteLine($"({trimedHello})");
+
+
+            trimedHello = hello.TrimEnd();
+            Console.WriteLine($"({trimedHello})");
+
 
         }
     }
