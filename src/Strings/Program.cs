@@ -27,6 +27,11 @@ namespace Strings
             trimedHello = hello.Trim();
             Console.WriteLine($"({trimedHello})");
 
+            string sayHello = "Hello man!";
+            Console.WriteLine(sayHello);
+           sayHello = sayHello.Replace("man", "World");
+            Console.WriteLine(sayHello);
+
         }
     }
 }
