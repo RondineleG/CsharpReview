@@ -33,7 +33,7 @@ namespace DataTypes
             Console.WriteLine(dec);
 
             int intAlias = 10;
-            Int32 intNormal= 10; //same as above
+            Int32 intNormal = 10; //same as above
 
             long longAlias = 45545;
             Int64 longNormal = 45545;
@@ -70,11 +70,16 @@ namespace DataTypes
             bool defaultBool = default;
             char defaultChar = default;
 
-               Console.WriteLine(defaultInt);
-               Console.WriteLine(defaultFloat);
-               Console.WriteLine(defaultDecimal);
-               Console.WriteLine(defaultBool);
-                              Console.WriteLine(defaultChar);
+            Console.WriteLine(defaultInt);
+            Console.WriteLine(defaultFloat);
+            Console.WriteLine(defaultDecimal);
+            Console.WriteLine(defaultBool);
+            Console.WriteLine(defaultChar);
+
+            int num = 10;
+            float num2 = num;
+
+            Console.WriteLine(num2);
 
 
         }
