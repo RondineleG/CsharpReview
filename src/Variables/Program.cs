@@ -34,6 +34,10 @@ namespace Variables
                 n = 50; m =5; p = 99; 
                 var sum = h *(p- m) + n / 2;
 
+                int a = 100;
+                 // value of b will be 100
+                int b = a;
+
             Console.WriteLine("Hello " + friend + message);
 
             Console.WriteLine(response);
