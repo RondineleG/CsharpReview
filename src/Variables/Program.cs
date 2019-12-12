@@ -14,7 +14,11 @@ namespace Variables
              string message;
              //value can be assigned after it declared
              message = " How are you ?";
+             string response = "Fine, thanks";
+
             Console.WriteLine("Hello " + friend + message);
+
+            Console.WriteLine(response);
         }
     }
 }
