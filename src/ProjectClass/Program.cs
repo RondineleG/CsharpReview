@@ -40,6 +40,23 @@ namespace ProjectClass
                  set{_myProperty = value;}
              }
 
+             public int MyPropertyWithLogic
+             {
+                 get {
+                     return _myProperty /2;
+                 }
+                 set{
+                     if(value >100)
+                     {
+                         _myProperty = 100;
+                     }
+                     else
+                     {
+                         _myProperty = value;
+                     }
+                 }
+             }
+
 
         }
         static void Main(string[] args)
