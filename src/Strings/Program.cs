@@ -13,6 +13,13 @@ namespace Strings
             Console.WriteLine($"The name has {firstName.Length} letters");
             Console.WriteLine(secondName.Length);
 
+            string hello = "      Hello World!       ";
+            Console.WriteLine($"({hello})");
+
+
+            string trimedHello = hello.TrimStart();
+            System.Console.WriteLine($"({trimedHello})");
+
         }
     }
 }
