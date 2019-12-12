@@ -10,12 +10,19 @@ namespace AnonymousType
             {
                 fisrtProperty = "First",
                 secondProperty = 2,
-                thirdProperty = true
+                thirdProperty = true,
+
+                anotherAnonymousType = new
+                {
+                    nestedProperty = "Nested"
+                }
             };
 
             Console.WriteLine(myAnonymousType.fisrtProperty);
-
+            Console.WriteLine(myAnonymousType.anotherAnonymousType.nestedProperty);
             Console.WriteLine(myAnonymousType.GetType().ToString());
+
+
         }
     }
 }
