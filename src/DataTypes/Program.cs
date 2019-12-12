@@ -64,6 +64,17 @@ namespace DataTypes
             
             */
 
+            int defaultInt = default;
+            float defaultFloat = default;
+            decimal defaultDecimal = default;
+            bool defaultBool = default;
+            char defaultChar = default;
+
+               Console.WriteLine(defaultInt);
+               Console.WriteLine(defaultFloat);
+               Console.WriteLine(defaultDecimal);
+               Console.WriteLine(defaultBool);
+                              Console.WriteLine(defaultChar);
 
 
         }
