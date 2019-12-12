@@ -33,7 +33,7 @@ namespace ProjectClass
 
              private int _myProperty;
 
-             //property
+             //property with encapsulates a private field
              public int MyProperty
              {
                  get{return _myProperty;}
