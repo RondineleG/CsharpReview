@@ -10,7 +10,7 @@ namespace HelloWorld
             Console.WriteLine("Hi " + name);
             Console.WriteLine("How are you today ?");
             var mensage = Console.ReadLine();
-            System.Console.WriteLine(mensage);
+            Console.WriteLine(mensage);
         }
     }
 }
