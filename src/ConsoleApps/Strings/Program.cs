@@ -66,6 +66,17 @@ namespace Strings
             Console.WriteLine(arrayAutors);
             Console.WriteLine(strArrayAuthors);
 
+
+            // Concatenate string using String.Join method 
+            int[] intArray = { 1, 3, 5, 7, 9 };
+            string seperator = ",";
+            string result = "Int , ";
+
+            result += string.Join(seperator, intArray);
+
+            Console.WriteLine($"Result : {result}");
+            Console.WriteLine($"Result : {result.ToUpper()}");
+
             Console.ReadKey();
 
         }
