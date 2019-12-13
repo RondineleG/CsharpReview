@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "src\ConsoleApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "src\ConsoleApps\Operators\Operators.csproj", "{FD9922D5-2FCD-4060-9888-DE65219BDC71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfConditions", "src\ConsoleApps\IfConditions\IfConditions.csproj", "{D9C560A5-4728-4BAD-B86B-C0714E9748B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{FD9922D5-2FCD-4060-9888-DE65219BDC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD9922D5-2FCD-4060-9888-DE65219BDC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD9922D5-2FCD-4060-9888-DE65219BDC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C560A5-4728-4BAD-B86B-C0714E9748B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C560A5-4728-4BAD-B86B-C0714E9748B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C560A5-4728-4BAD-B86B-C0714E9748B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C560A5-4728-4BAD-B86B-C0714E9748B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{6F41FE0C-096E-4046-9D56-1EBFA8F1E083} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
 		{1AE0F09E-C740-4D5A-9013-C2269738A92A} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
 		{FD9922D5-2FCD-4060-9888-DE65219BDC71} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
+		{D9C560A5-4728-4BAD-B86B-C0714E9748B0} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70C59F86-E282-486A-AD71-CA485927C66F}
