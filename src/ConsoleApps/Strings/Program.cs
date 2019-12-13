@@ -86,6 +86,12 @@ namespace Strings
 
             Console.WriteLine($"Result : {result2}");
 
+            //Concatenate string using String.Format method
+
+            string strDate = string.Format("Today's data is {0}", DateTime.Now);
+            Console.WriteLine(strDate);
+            Console.WriteLine(strDate.Length);
+
             Console.ReadKey();
 
         }
