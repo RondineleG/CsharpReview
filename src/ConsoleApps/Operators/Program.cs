@@ -26,6 +26,15 @@ namespace Operators
             Console.WriteLine(division);
             Console.WriteLine(subtract);
             Console.ReadKey();
+
+            // Operator precedence
+
+            var a = 2 + 2 * 2; // output : 6
+
+            //Use parentheses to change the order of evaluation imposed by operator precedence:
+
+            var b = (2 + 2) * 2; // output : 8
+
         }
     }
 }
