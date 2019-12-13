@@ -24,10 +24,14 @@ namespace Switch
 
             }
 
-            var statementType = "ternary";
+            var statementType = "switch";
 
             switch(statementType)
             {
+                case "DecisionMaking":
+                    Console.WriteLine("Is a decision making statement.");
+                    break;
+
                 case "ifelse":
                     Console.WriteLine("if else statement");
                     break;
@@ -36,7 +40,10 @@ namespace Switch
                     break;
                 case "switch":
                     Console.WriteLine("switch statement");
-                    break;
+                    goto case "DecisionMaking";
+                   
+                   
+
             }
         }
     }
