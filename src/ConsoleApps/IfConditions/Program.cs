@@ -36,6 +36,20 @@ namespace IfConditions
                 Console.WriteLine("i is less than j");
             }
 
+            int number = 10;
+
+            if (number > 0)
+            {
+                if (number <= 100)
+                {
+                    Console.WriteLine("i is positive number less than 100");
+                }
+                else
+                {
+                    Console.WriteLine("i is positive number greater than 100");
+                }
+            }
+
         }
     }
 }
