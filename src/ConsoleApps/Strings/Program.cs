@@ -107,6 +107,9 @@ namespace Strings
 
             Console.WriteLine(movieDetails);
 
+            // Use spacing - add 20 chars  
+            Console.WriteLine($"{actor}{movie,20}");
+
 
             // StringBuilder.Append method
 
@@ -118,7 +121,7 @@ namespace Strings
             Console.WriteLine(builder);
 
             StringBuilder numbers = new StringBuilder();
-            for (int counter = 0; counter <= 999; counter++)
+            for (int counter = 0; counter <= 99; counter++)
             {
                 numbers.Append(counter);
                 numbers.Append(",");
