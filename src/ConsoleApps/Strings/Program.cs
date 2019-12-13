@@ -35,6 +35,18 @@ namespace Strings
             Console.WriteLine(sayHello.ToLower());
             Console.WriteLine(sayHello.ToUpper());
 
+            // String interpolation
+
+            var author = "Rondinele Guimarães";
+            var book = "C# Guide";
+            var date = DateTime.Now;
+
+            // Use string interpolation to concatenate strings
+
+            var bookAuthor = $"{author.ToUpper()} is author of {book.ToUpper()} of year {date.Year}";
+            Console.WriteLine(bookAuthor);
+
+            Console.ReadKey();
 
         }
     }
