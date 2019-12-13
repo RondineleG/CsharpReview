@@ -110,6 +110,9 @@ namespace Strings
             // Use spacing - add 20 chars  
             Console.WriteLine($"{actor}{movie,20}");
 
+            // Use an expression  
+            Console.WriteLine($"Movie {movie} price is {(price < 80 ? "50" : "100")} .");
+
 
             // StringBuilder.Append method
 
