@@ -23,7 +23,21 @@ namespace Switch
                     break;
 
             }
-            
+
+            var statementType = "ternary";
+
+            switch(statementType)
+            {
+                case "ifelse":
+                    Console.WriteLine("if else statement");
+                    break;
+                case "ternary":
+                    Console.WriteLine("Ternary operator");
+                    break;
+                case "switch":
+                    Console.WriteLine("switch statement");
+                    break;
+            }
         }
     }
 }
