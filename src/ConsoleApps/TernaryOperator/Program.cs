@@ -6,7 +6,7 @@ namespace TernaryOperator
     {
         static void Main(string[] args)
         {
-            int x = 20, y = 10;
+            int x = 80, y = 80;
             int result3 = 0;
 
 
@@ -22,11 +22,17 @@ namespace TernaryOperator
                 result3 = y;
             }
 
+            var result4 = x > y ? "x is greater than y" : x < y ? 
+                "x is less than y" : x == y ?
+                "x is equal to y" : "No result";
+
             Console.WriteLine(result);
 
             Console.WriteLine(result2);
             
             Console.WriteLine(result3);
+
+            Console.WriteLine(result4);
 
         }
     }
