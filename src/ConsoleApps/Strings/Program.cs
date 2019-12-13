@@ -92,6 +92,21 @@ namespace Strings
             Console.WriteLine(strDate);
             Console.WriteLine(strDate.Length);
 
+            // Insert multiple objects in a string     
+
+            string actor = "Rondinele";
+            string movie = "Life developer";
+            int year = 2006;
+            int price = 89;
+            string publisher = "Cpress";
+            string pub = "Cpress";
+
+            var movieDetails = string.Format("{0} is actor of movie {1} \n" + 
+                "published  by {2} in the year {3}.\n movie price is R$ {4}",
+                actor, movie, publisher, year,price);
+
+            Console.WriteLine(movieDetails);
+
             Console.ReadKey();
 
         }
