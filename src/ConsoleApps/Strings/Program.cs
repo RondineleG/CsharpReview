@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Strings
 {
@@ -99,13 +100,31 @@ namespace Strings
             int year = 2006;
             int price = 89;
             string publisher = "Cpress";
-            string pub = "Cpress";
 
             var movieDetails = string.Format("{0} is actor of movie {1} \n" + 
                 "published  by {2} in the year {3}.\n movie price is R$ {4}",
                 actor, movie, publisher, year,price);
 
             Console.WriteLine(movieDetails);
+
+
+            // StringBuilder.Append method
+
+            StringBuilder builder = new StringBuilder("Rondinele Guimaraes");
+            builder.Append(",");
+            builder.Append("Beatriz");
+            builder.Append(", Gabriela");
+            
+            Console.WriteLine(builder);
+
+            StringBuilder numbers = new StringBuilder();
+            for (int counter = 0; counter <= 999; counter++)
+            {
+                numbers.Append(counter);
+                numbers.Append(",");
+            }
+
+            Console.WriteLine(numbers);
 
             Console.ReadKey();
 
