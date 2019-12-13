@@ -46,6 +46,26 @@ namespace Strings
             var bookAuthor = $"{author.ToUpper()} is author of {book.ToUpper()} of year {date.Year}";
             Console.WriteLine(bookAuthor);
 
+            //Concatenate string using String.Concate method
+
+            string fName = "Rondinele";
+            string lName = " Guimaraes";
+
+            string Name = string.Concat(fName, lName);
+
+            string Name3 = string.Concat(string.Concat(fName, lName), " Sousa");
+
+            Console.WriteLine(Name);
+            Console.WriteLine(Name3);
+
+            string[] authors = {"Rondinele ","Beatriz ","Gabriela"," Janaina"," Maria" };
+
+            string arrayAutors = string.Concat(authors);
+            string strArrayAuthors = string.Concat("Authors : ", arrayAutors);
+           
+            Console.WriteLine(arrayAutors);
+            Console.WriteLine(strArrayAuthors);
+
             Console.ReadKey();
 
         }
