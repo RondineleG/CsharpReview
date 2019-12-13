@@ -9,8 +9,8 @@ namespace Operators
             var message = "Hello";
 
             // string concatenation 
-            var printMessage = message + "World!";
-
+            var printMessage = message + "World!";              
+            Console.WriteLine("Save" + " " + "World " + "!");
             Console.WriteLine(printMessage);
 
             int i = 10, j = 50, l = 80;
@@ -25,7 +25,6 @@ namespace Operators
             Console.WriteLine(multiplication);
             Console.WriteLine(division);
             Console.WriteLine(subtract);
-            Console.ReadKey();
 
             // Operator precedence
 
@@ -34,6 +33,22 @@ namespace Operators
             //Use parentheses to change the order of evaluation imposed by operator precedence:
 
             var b = (2 + 2) * 2; // output : 8
+
+
+            // String interpolation
+
+            var author = "Rondinele Guimarães";
+            var book = "C# Guide";
+
+            // Use string interpolation to concatenate strings
+
+            var bookAuthor = $"{author} is author of {book}";
+            Console.WriteLine(bookAuthor);
+
+
+            Console.ReadKey();
+
+
 
         }
     }
