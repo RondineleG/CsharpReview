@@ -77,6 +77,15 @@ namespace Strings
             Console.WriteLine($"Result : {result}");
             Console.WriteLine($"Result : {result.ToUpper()}");
 
+            // String.Join method specified the starting index of the array
+            string[] stringArray = { "Rondinele ", "Beatriz ", "Gabriela", " Janaina", " Maria" };
+
+            string result2 = "First Author, ";
+
+            result2 += string.Join(seperator, stringArray,0,1);
+
+            Console.WriteLine($"Result : {result2}");
+
             Console.ReadKey();
 
         }
