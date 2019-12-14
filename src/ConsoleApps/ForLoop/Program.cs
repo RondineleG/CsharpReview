@@ -26,11 +26,17 @@ namespace ForLoop
                     break;
                 }
             }
-            for(; ; )
+            
+
+            for (double d = 1.01D; d < 1.10; d += 0.01D)
+            {
+                Console.WriteLine("Value of d : {0}", d);
+            }
+
+            for (; ; )
             {
                 Console.WriteLine(1);
             }
-
         }
     }
 }
