@@ -38,9 +38,19 @@ namespace ForLoop
             {
                 Console.WriteLine("Value of i : {0}", i);
             }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 5)
+                {
+                    break;
+                }
+
+                Console.WriteLine("Value of i: {0}", i);
+            }
             for (; ; )
             {
-                Console.WriteLine(1);
+                  Console.WriteLine(1);
             }
 
 
