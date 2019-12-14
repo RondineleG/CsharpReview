@@ -26,6 +26,11 @@ namespace ForLoop
                     break;
                 }
             }
+            for(; ; )
+            {
+                Console.WriteLine(1);
+            }
+
         }
     }
 }
