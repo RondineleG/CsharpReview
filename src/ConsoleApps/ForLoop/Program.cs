@@ -48,6 +48,20 @@ namespace ForLoop
 
                 Console.WriteLine("Value of i: {0}", i);
             }
+
+            for(int i = 0; i < 10; i++)
+            {
+                for(int j = 0; j < 10; j++)
+                {
+                    for (int l = 0; l < 10; l++)
+                    {
+                        for (int m = 0; m < 10; m++)
+                        {
+                            Console.WriteLine("Value of i: {0}, J: {1}, L: {2}, M: {3} ", i, j, l, m);
+                        }
+                    }
+                }
+            }
             for (; ; )
             {
                   Console.WriteLine(1);
