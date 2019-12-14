@@ -33,10 +33,17 @@ namespace ForLoop
                 Console.WriteLine("Value of d : {0}", d);
             }
 
+
+            for (int i = 10; i>0; i--)
+            {
+                Console.WriteLine("Value of i : {0}", i);
+            }
             for (; ; )
             {
                 Console.WriteLine(1);
             }
+
+
         }
     }
 }
