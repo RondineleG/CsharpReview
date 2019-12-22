@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TernaryOperator", "src\Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch", "src\ConsoleApps\Switch\Switch.csproj", "{553F2671-FD42-4B34-9697-EFDC1BD812AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoop", "src\ConsoleApps\ForLoop\ForLoop.csproj", "{F2A0FDD6-6D54-45CC-8187-653068073F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoop", "src\ConsoleApps\ForLoop\ForLoop.csproj", "{F2A0FDD6-6D54-45CC-8187-653068073F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoop", "src\ConsoleApps\WhileLoop\WhileLoop.csproj", "{397A9B63-E20C-480F-A43D-DAEA90D851A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{F2A0FDD6-6D54-45CC-8187-653068073F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A0FDD6-6D54-45CC-8187-653068073F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A0FDD6-6D54-45CC-8187-653068073F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397A9B63-E20C-480F-A43D-DAEA90D851A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397A9B63-E20C-480F-A43D-DAEA90D851A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397A9B63-E20C-480F-A43D-DAEA90D851A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397A9B63-E20C-480F-A43D-DAEA90D851A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +141,7 @@ Global
 		{F14DE56B-7D06-4768-AC87-EBF25898188B} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
 		{553F2671-FD42-4B34-9697-EFDC1BD812AC} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
 		{F2A0FDD6-6D54-45CC-8187-653068073F86} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
+		{397A9B63-E20C-480F-A43D-DAEA90D851A3} = {408C8D11-F8BC-4DBF-A46E-B16263A7A7EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70C59F86-E282-486A-AD71-CA485927C66F}

@@ -17,7 +17,7 @@ namespace ForLoop
             {
                 if(loopFor < 10)
                 {
-                    Console.WriteLine("Value of i : {0}", loopFor);
+                    Console.WriteLine("Value of loopFor is : {0}", loopFor);
                     loopFor++;
 
                 }
