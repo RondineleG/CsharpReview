@@ -28,12 +28,29 @@ namespace c
                 }
                 else if (age  == 18)
                 {
-                    Console.WriteLine("it's equal than 18");
+                    Console.WriteLine("it's equal than 18.");
                 }
                 else
                 {
-                    Console.WriteLine("it's smaller than 18");
+                    Console.WriteLine("it's smaller than 18.");
                 }
+            }
+
+            int number = 0;
+            while(number < 10)
+            {
+
+                Console.WriteLine($"Value of i is : {number} .");
+                var j = 1;
+                number++;
+
+                
+                while(j <5)
+                {
+                    Console.WriteLine($"Value of j is : {j}.");
+                    j++;
+                }
+
             }
         }
     }
